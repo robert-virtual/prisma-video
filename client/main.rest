@@ -1,0 +1,28 @@
+
+
+
+GET http://localhost:3000/product
+
+###
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name":"Roberto Castillo",
+    "email":"robertcastillo@gmail.com",
+    "password":"Roberto Castillo"
+}
+
+###
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "name":"Mouse Gamer",
+    "price":500,
+    "quantity":10,
+    "sellerId":1
+}
